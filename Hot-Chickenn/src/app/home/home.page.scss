@@ -1,7 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
 
 ion-title {
   text-align: center;
   font-family: 'Bungee Outline', cursive;
+}
+
+ion-card-title {
+  font-family: 'Teko', sans-serif;
+}
+
+h2 {
+  font-family: 'Teko', sans-serif;
 }
