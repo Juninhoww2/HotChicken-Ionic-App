@@ -4,3 +4,10 @@
 
 Is app to send fun images!
 
+Tech: 
+ Angular
+ Node
+ Ionic
+ Firebase
+ 
+ 
