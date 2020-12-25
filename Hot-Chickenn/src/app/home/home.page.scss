@@ -14,3 +14,17 @@ ion-card-title {
 h2 {
   font-family: 'Teko', sans-serif;
 }
+
+ion-img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 32px;
+}
+
+@media only screen and (min-width: 961px) {
+  ion-img {
+      text-align: center;  
+      height: 50px;
+  }
+}
