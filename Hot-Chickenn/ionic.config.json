@@ -1,5 +1,8 @@
 {
   "name": "Hot-Chickenn",
-  "integrations": {},
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
   "type": "angular"
 }
