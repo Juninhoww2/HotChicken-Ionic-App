@@ -7,6 +7,12 @@ ion-title {
   font-family: 'Bungee Outline', cursive;
 }
 
+ion-header {
+  --background: rgb(248, 81, 81);
+    background:  rgb(248, 81, 81);
+}
+
+
 ion-card-title {
   font-family: 'Bungee Outline', cursive;
 }
@@ -24,6 +30,8 @@ ion-img {
   margin: 0 auto;
   top: 50%;
   transform: translateY(-50%);
+  border-radius: 0 0 28px 28px;
+  box-shadow: none;
 }
 
 @media only screen and (min-width: 961px) {
