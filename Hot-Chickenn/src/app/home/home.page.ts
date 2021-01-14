@@ -59,7 +59,7 @@ export class HomePage {
     const file = event.item(0)
 
     // Validation for Images Only
-    if (file.type.split('/')[0] !== 'image') { 
+    if (file.type.split('/')[0] !== 'image', 'pdf') { 
      console.error('unsupported file type :( ')
      return;
     }
@@ -107,7 +107,7 @@ export class HomePage {
       })
     )
   }
-
+  
   addImagetoDB(image: MyData) {
     //Create an ID for document
     const id = this.database.createId();
@@ -120,5 +120,15 @@ export class HomePage {
     });
   }
 
+  addPdftoDB(pdf: MyData) {
+    //Create an ID for document
+    const id = this.database.createId();
 
+    //Set document id with value in database
+    this.imageCollection.doc(id).set(pdf).then(resp => {
+      console.log(resp);
+    }).catch(error => {
+      console.log("error " + error);
+    });
+  }
 }
