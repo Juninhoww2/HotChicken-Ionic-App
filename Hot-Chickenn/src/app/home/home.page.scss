@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
 
+
+ion-card {
+  --background: linear-gradient(197deg, rgba(100,100,100,1) 0%, rgba(63,63,63,1) 13.5%, rgba(29,29,29,1) 33.33%, rgba(0,0,0,1) 100%) !important; 
+
+}
 ion-title {
   text-align: center;
   font-family: 'Bungee Outline', cursive;
@@ -44,8 +49,4 @@ ion-img {
 .hotchicken {
   font-family: 'Bungee Outline', cursive;
   text-align: center;
-}
-
-.hotchickenapp {
-  --background: linear-gradient(197deg, rgba(100,100,100,1) 0%, rgba(63,63,63,1) 13.5%, rgba(29,29,29,1) 33.33%, rgba(0,0,0,1) 100%) !important; 
 }
