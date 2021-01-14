@@ -5,10 +5,8 @@
 </ion-header>
 
 <ion-content class="ion-padding">
-  <ion-card class="hotchicken">
-    <ion-card-title>HOT CHICKEN</ion-card-title>
-  </ion-card>
   <ion-card class="ion-text-center" *ngIf="!isUploading && !isUploaded">
+    <ion-card-title class="hotchickenapp">HOT CHICKEN</ion-card-title>  
     <ion-card-header>
       <ion-card-title>Choose Images to Upload</ion-card-title>
     </ion-card-header>  
@@ -44,7 +42,7 @@
   <ion-card class="ion-text-center" *ngIf="!isUploading && isUploaded">
     <ion-card-header>
       <ion-card-title>
-        <b>{{ fileName }}</b> Uploaded!
+        <b>{{ fileName }}</b> 
       </ion-card-title>
     </ion-card-header>
 
