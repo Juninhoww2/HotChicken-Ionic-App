@@ -3,18 +3,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
 
 
-
-ion-card {
-  --background: linear-gradient(90deg, rgba(43,90,148,1) 0%, rgba(45,112,229,1) 35%, rgba(45,112,229,1) 100%);
-}
 ion-title {
   text-align: center;
   font-family: 'Bungee Outline', cursive;
 }
 
 ion-header {
-  --background: rgb(248, 81, 81);
-    background:  rgb(248, 81, 81);
+  --background: rgb(#eb445a;
+    background:  rgb(#eb445a);
+    background: linear-gradient(90deg, #eb445a 0%, #cf3c4f 100% )
 }
 
 
@@ -48,5 +45,5 @@ ion-img {
 
 .hotchicken {
   font-family: 'Bungee Outline', cursive;
-  text-align: center;
+  text-align: center; 
 }
